@@ -1,0 +1,48 @@
+class idHeroi {
+    constructor(nome, idade, tipo) {
+      this.nome = nome;
+      this.idade = idade;
+      this.tipo = tipo;
+    }
+  idDesc() {
+    return `${this.nome} ${this.idade} ${this.tipo}`;
+  }
+  mago(){
+  console.log("usou magia")
+  }
+guerreiro(){
+  console.log("usou espada")
+}
+mange(){
+  console.log("usou artes marciais")
+}
+ninja(){
+  console.log("usou shuriken")  
+ }
+}
+
+let meuHeroi = new idHeroi('Fulano', 32, 'mago');
+console.log(meuHeroi.idDesc());
+console.log(`O ${tipo} atacou  )
+
+
+
+
+    class idHeroi {
+    constructor(nome, idade, tipo) {
+      this.nome = nome;
+      this.idade = idade;
+      this.tipo = tipo;
+    }
+  idDesc() {
+    return `${this.nome} ${this.idade} ${this.tipo}`;
+  }
+}
+let meuHeroi = new idHeroi('Fulano', 32, 'mago');
+console.log(meuHeroi.idDesc());
+
+let mago = ("magia");
+let guerreiro = ("espada");
+let monge = ("artes marciais");
+let ninja = ("shuriken");
+console.log("O " + this.tipo + " atacou usando " + mago)
